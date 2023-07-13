@@ -44,7 +44,6 @@ plt.show()
 metric_names = ['MSE', 'RMSE', 'MAE', 'R-squared']
 metric_values = [mse, rmse, mae, r2]
 
-
 plt.bar(metric_names, metric_values)
 plt.xlabel('Metrics')
 plt.ylabel('Values')
